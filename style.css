@@ -85,8 +85,46 @@ select {
   font: inherit;
 }
 
+/* BUTTONS */
 button {
   width: 222px;
   height: 71px;
   border: none;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.btn-light {
+  background-color: var(--btn-bg-light);
+  color: var(--btn-text-dark);
+}
+
+.btn-dark {
+  background-color: var(--btn-bg-dark);
+  color: var(--btn-text-light);
+}
+
+/* HEADERS */
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--main-theme-text-dark);
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 64px;
+  color: var(--main-theme-text-light);
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 200px;
+  color: var(--tert-theme-text);
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--sec-theme-text-light);
 }
