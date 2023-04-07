@@ -1,0 +1,30 @@
+:root {
+  --main-theme-bg: #e5e5e5;
+  --sec-theme-bg: #fbfbfb;
+
+  --main-theme-text-light: #bdbdbd;
+  --main-theme-text-dark: #333;
+  --sec-theme-text-dark: #000;
+  --sec-theme-text-light: #fff;
+  --tert-theme-text: #f2f2f2;
+
+  --btn-bg-light: var(--sec-theme-text-light);
+  --btn-bg-dark: var(--main-theme-text-dark);
+  --btn-text-dark: var(--main-theme-text-dark);
+  --btn-text-light: var(--sec-theme-text-light);
+
+  --arrow-key-border: #f2f2f2;
+  --arrow-key-bg: #f9f9f9;
+  --arrow-key-bg-light: var(--sec-theme-text-light);
+
+  --main-border: #e0e0e0;
+  --footer-border: var(--sec-theme-text-light);
+
+  --form-bg: #f3f3f3;
+  --form-text: #8d8d8d;
+
+  --footer-theme-bg: #2c2c2c;
+  --footer-theme-text: var(--sec-theme-text-light);
+
+  --copyright-text: #c8c8c8;
+}
