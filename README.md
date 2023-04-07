@@ -1,5 +1,7 @@
 Things done
-Nothing...
+- colours
+- init
+- buttons
 
 To-do
-Everything!
+- a lot

@@ -84,3 +84,9 @@ textarea,
 select {
   font: inherit;
 }
+
+button {
+  width: 222px;
+  height: 71px;
+  border: none;
+}
