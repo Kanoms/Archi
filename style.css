@@ -1,3 +1,4 @@
+/* COLOURS */
 :root {
   --main-theme-bg: #e5e5e5;
   --sec-theme-bg: #fbfbfb;
@@ -127,4 +128,48 @@ h4 {
   font-weight: 700;
   font-size: 64px;
   color: var(--sec-theme-text-light);
+}
+
+/* nav bar  */
+.logo {
+  margin-left: 135px;
+}
+
+.logo-img {
+  display: flex;
+  gap: 2px;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-list {
+  margin-right: 270px;
+}
+
+.nav-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.menu {
+  display: none;
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list ul li a:hover {
+  border-top: var(--main-theme-text-dark) 1px solid;
+  border-bottom: var(--main-theme-text-dark) 1px solid;
 }
