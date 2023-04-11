@@ -89,6 +89,7 @@ select {
 
 /* BUTTONS */
 button {
+  cursor: pointer;
   width: 222px;
   height: 71px;
   border: none;
@@ -261,6 +262,8 @@ section:first-of-type {
   gap: 35px;
 }
 
+/* SECTION 3  */
+
 .sub-sections1 {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -282,4 +285,46 @@ section:first-of-type {
 .para-2 p {
   font-size: 22px;
   width: 85%;
+}
+
+/* SECTION 4 */
+.disp-text {
+  display: none;
+}
+
+.disp-text {
+  color: var(--sec-theme-text-light);
+}
+
+.disp-text h4 {
+  line-height: 64px;
+}
+
+.sect3-image1:hover .disp-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3333337b;
+  top: 0px;
+  width: 570px;
+  height: 255px;
+  margin: 0 auto;
+  padding-left: 79px;
+  padding-top: 48px;
+}
+
+.sect3-upper-images,
+.sect3-lower-images {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.sub-sections2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: end;
+  position: relative;
 }
