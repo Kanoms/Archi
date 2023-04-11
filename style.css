@@ -328,3 +328,64 @@ section:first-of-type {
   align-items: end;
   position: relative;
 }
+
+/* SECTION 5 */
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+form p:nth-of-type(5) {
+  position: relative;
+}
+
+.sub-sections3 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+input {
+  width: 391px;
+  height: 46px;
+  background: var(--form-bg);
+  border: none;
+  padding-left: 21px;
+  font-size: 14px;
+}
+
+.address {
+  height: 147px;
+  padding-bottom: 100px;
+}
+
+.fa-check {
+  position: absolute;
+  padding-top: 73.5px;
+  left: 5px;
+}
+
+.to-submit {
+  position: absolute;
+  top: 391px;
+}
+
+.to-submit div {
+  margin-bottom: 21px;
+  padding-left: 40px;
+}
+
+/* FOOTER  */
+footer {
+  padding-top: 120px;
+}
