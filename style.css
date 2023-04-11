@@ -260,3 +260,26 @@ section:first-of-type {
   flex-direction: column;
   gap: 35px;
 }
+
+.sub-sections1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sub-sub-sect1,
+.sub-sub-sect2 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+}
+
+.para-1 p {
+  font-size: 22px;
+  width: 50%;
+}
+
+.para-2 p {
+  font-size: 22px;
+  width: 85%;
+}
