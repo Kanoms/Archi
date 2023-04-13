@@ -650,3 +650,15 @@ footer {
   text-align: right;
   margin-top: 50px;
 }
+
+/* FIFTH PAGE  */
+.hero-page5 {
+  display: flex;
+  gap: 34px;
+}
+
+.page5-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
