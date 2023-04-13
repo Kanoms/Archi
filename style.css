@@ -1,3 +1,31 @@
+/* FONT FAMILIES */
+@font-face {
+  font-family: TT-Hoves;
+  src: url(Fonts/TT-Hoves.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: TT-Hoves-Thin;
+  src: url(Fonts/TT-Hoves-Thin.ttf);
+}
+
+@font-face {
+  font-family: TT-Hoves-Bold;
+  src: url(Fonts/TT-Hoves-Bold.ttf);
+}
+
+@font-face {
+  font-family: SFProDisplay-Heavy;
+  src: url(Fonts/SFProDisplay-Heavy.ttf);
+}
+
+@font-face {
+  font-family: TT-Hoves-Medium;
+  src: url(Fonts/TT-Hoves-Medium.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Open+Sans&display=swap");
+
 /* COLOURS */
 :root {
   --main-theme-bg: #e5e5e5;
@@ -60,6 +88,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background: var(--sec-theme-bg);
+  font-family: TT-Hoves;
 }
 
 /* A elements that don't have a class get default styles */
@@ -126,9 +155,11 @@ h1 {
   font-weight: 700;
   font-size: 64px;
   color: var(--main-theme-text-dark);
+  font-family: TT-Hoves-Bold, sans-serif;
 }
 
 h2 {
+  font-family: TT-Hoves-Thin, sans-serif;
   font-weight: 300;
   font-size: 64px;
   color: var(--main-theme-text-light);
@@ -138,6 +169,7 @@ h3 {
   font-weight: 900;
   font-size: 200px;
   color: var(--tert-theme-text);
+  font-family: SFProDisplay-Heavy, sans-serif;
 }
 
 h4 {
@@ -149,6 +181,7 @@ h4 {
 h5 {
   font-size: 16px;
   margin-bottom: 25px;
+  font-family: TT-Hoves-Bold, sans-serif;
 }
 
 .container {
@@ -279,6 +312,8 @@ section:first-of-type {
 
 #abt-comp p {
   width: 400px;
+  color: var(--sec-theme-text-dark);
+  font-family: TT-Hoves-Thin, sans-serif;
 }
 
 .sec-container {
@@ -318,12 +353,12 @@ section:first-of-type {
 
 .para-1 p {
   font-size: 22px;
-  width: 50%;
+  width: 60%;
 }
 
 .para-2 p {
   font-size: 22px;
-  width: 85%;
+  width: 100%;
 }
 
 /* SECTION 4 */
@@ -337,6 +372,11 @@ section:first-of-type {
 
 .disp-text h4 {
   line-height: 64px;
+  font-family: TT-Hoves-Bold, sans-serif;
+}
+
+.disp-text p {
+  font-family: "Gothic A1", sans-serif;
 }
 
 .sect3-image1:hover .disp-text {
@@ -458,6 +498,10 @@ footer {
   gap: 16px;
 }
 
+.foot-info ul li {
+  font-family: TT-Hoves-Medium, sans-serif;
+}
+
 .foot-contact ul {
   display: flex;
   flex-direction: column;
@@ -474,6 +518,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 14px;
+  font-family: TT-Hoves-Medium, sans-serif;
 }
 
 .copyright {
@@ -481,4 +526,5 @@ footer {
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--copyright-text);
+  font-family: "Open Sans", sans-serif;
 }
