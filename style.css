@@ -636,3 +636,17 @@ footer {
   grid-template-columns: 419px 721px;
   column-gap: 30px;
 }
+
+/* FOURTH PAGE  */
+.letters {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  justify-content: space-evenly;
+}
+
+.fourth-page .scroller {
+  justify-content: end;
+  text-align: right;
+  margin-top: 50px;
+}
