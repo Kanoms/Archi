@@ -623,3 +623,16 @@ footer {
 .hero-page3 {
   margin-bottom: 60px;
 }
+
+/* THIRD PAGE PART 2 */
+.third-page2 section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 419px 721px;
+  column-gap: 30px;
+}
